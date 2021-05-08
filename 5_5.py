@@ -1,0 +1,5 @@
+w=open('new_5.txt', 'w+')
+line = input('Введите цифры через пробел \n')
+w.writelines(line)
+my_numb = line.split()
+print(sum(map(int, my_numb)))
